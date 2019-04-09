@@ -1,0 +1,133 @@
+/*Ex_1
+
+.acc-head{
+    background: #2e2e2e;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #898989;
+    border: 2px solid #2e2e2e;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.active{
+    background: white;
+} */
+
+/*Ex_2
+.tabs{
+    clip-path: polygon(0 48%, 100% 0, 100% 100%, 0% 100%);
+    width: 170px;
+    height: 100px;
+    background: burlywood;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.body{
+    width: 849px;
+    background: #deb887a3;
+    padding: 15px;
+    position: absolute;
+    top: 100%;
+    left: 145px;   
+    opacity: 0;
+    transition: all .3s ease;
+}
+.active{
+    background: #deb887a3;
+    opacity: 1;
+}
+*/
+
+/*Ex_3
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.color-tabs{
+    width: 10px;
+    height: 100px;
+    cursor: pointer;
+}
+.color-tabs[data-id="1"]{
+    background: rgb(255, 187, 0);
+}
+.color-tabs[data-id="2"]{
+    background: rgb(0, 255, 179);
+}
+.color-tabs[data-id="3"]{
+    background: rgb(183, 0, 255);
+}
+.color-tabs[data-id="4"]{
+    background: rgb(0, 255, 106);
+}
+.color-pallets{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 10px;
+    transition: all .6s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.color-pallets p {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 30px;
+}
+.color-pallets[data-id="1"]{
+    background: rgb(255, 187, 0);
+}
+.active{
+    opacity: 1 ;
+    width: 1130px;
+}
+*/
+
+/*Ex_4
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-flex;
+    width: 89%;
+}
+.tabs{
+    padding: 15px;
+    cursor: pointer;
+}
+.head{
+    background: lightblue;
+    width: 100%;
+}
+.body{
+    height: auto;
+    padding: 15px;
+    transition: all .4s ease;
+    position: absolute;
+    top: 54px;
+    opacity: 0;
+    background: #ececec87;
+}
+.body.active{
+    opacity: 1;
+}
+.tabs.active{
+    border-bottom: 1px solid red;
+}
+button{
+    border: 1px solid darkblue !important   ;
+    margin: 0 10px;
+}
+*/
